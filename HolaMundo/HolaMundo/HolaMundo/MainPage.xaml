@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="HolaMundo.MainPage">
+
+    
+    <StackLayout>
+
+        <ScrollView>
+
+            <StackLayout Orientation="Vertical">
+
+                <Label Text="Hola Mundo" FontSize="Large" FontAttributes="Bold"
+                       TextColor="Blue"></Label>
+
+                <Button Text="Click Me" BackgroundColor="Blue" TextColor="White"></Button>
+
+                <Image Source="https://miro.medium.com/max/3840/1*Vwtu6c6lSQKtg5N96_nW-Q.jpeg" />
+                
+                <StackLayout Orientation="Horizontal">
+                    <Button Text="Click Me Horizontal" />
+                    <Label Text="Label Horizontal" />
+                </StackLayout>
+                
+            </StackLayout>
+
+        </ScrollView>
+        
+        
+    </StackLayout>
+
+
+</ContentPage>

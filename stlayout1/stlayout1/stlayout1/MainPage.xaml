@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="stlayout1.MainPage">
+
+    <StackLayout Orientation="Vertical" Spacing="10" x:Name="stk1">
+
+        <Button Text="StackLayout" VerticalOptions="Start"
+                HorizontalOptions="FillAndExpand"></Button>
+
+        <BoxView Color="Yellow" VerticalOptions="FillAndExpand"
+                 HorizontalOptions="FillAndExpand"></BoxView>
+
+        <BoxView Color="Green" VerticalOptions="FillAndExpand"
+                 HorizontalOptions="FillAndExpand"></BoxView>
+
+        
+        <BoxView HeightRequest="75" Color="Blue" VerticalOptions="End"
+                 HorizontalOptions="FillAndExpand"></BoxView>
+
+ 
+    </StackLayout>
+
+</ContentPage>
