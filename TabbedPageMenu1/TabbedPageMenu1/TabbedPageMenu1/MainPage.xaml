@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="TabbedPageMenu1.MainPage"
+             Title="Mi Ciudad">
+
+    <ContentPage Title="Home">
+        <ContentPage.Content>
+            <ScrollView>
+                <StackLayout VerticalOptions="CenterAndExpand" Margin="10,10,10,20" Orientation="Vertical" Spacing="10">
+                    <Label FontSize="15" VerticalTextAlignment="Start"
+                           Text="Guayaquil, ......"></Label>    
+                    
+                    
+                </StackLayout>
+                
+            </ScrollView>
+            
+        </ContentPage.Content>
+        
+    </ContentPage>
+
+    <ContentPage Title="Registro">
+        <ContentPage.Content>
+            <ScrollView>
+                <StackLayout>
+                    <Label Text="Comming soon"></Label>
+                </StackLayout>
+            </ScrollView>
+        </ContentPage.Content>        
+        
+    </ContentPage>
+
+    <ContentPage Title="Multimedia">
+        <ContentPage.Content>
+            <ScrollView>
+                <StackLayout>
+                    <Label Text="Comming soon Multimedia"></Label>
+                </StackLayout>
+            </ScrollView>
+        </ContentPage.Content>
+
+    </ContentPage>
+
+</TabbedPage>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="XamarinCamara1.MainPage">
+
+
+    <ScrollView>
+        <StackLayout Orientation="Vertical" Spacing="4">
+            
+            <!-- Contenedor de la imagen -->
+            <Image x:Name="MainImage" Source="icon.png" HeightRequest="150" WidthRequest="150"></Image>
+            
+            
+            <!-- Ruta/Folder de la imagen -->
+            <Label x:Name="PathLabel" TextColor="Blue" FontSize="14"></Label>
+            
+
+            <!-- Botones de accion para captura de imagen/video -->
+            <Button Text="Tomar Fotos" BackgroundColor="Maroon" TextColor="White" x:Name="BtnTomaFotos" Clicked="BtnTomaFotos_Clicked"></Button>
+            <Button Text="Grabar Videos" BackgroundColor="Navy" TextColor="White" x:Name="BtnGrabaVideo" Clicked="BtnGrabaVideo_Clicked"></Button>
+            <Button Text="Subir Foto de galeria" BackgroundColor="Brown" TextColor="White" x:Name="BtnSubeFoto" Clicked="BtnSubeFoto_Clicked"></Button>
+            <Button Text="Subir Video de galeria" BackgroundColor="Fuchsia" TextColor="White" x:Name="BtnSubeVideo" Clicked="BtnSubeVideo_Clicked"></Button>
+
+        </StackLayout>
+        
+    </ScrollView>
+
+</ContentPage>
