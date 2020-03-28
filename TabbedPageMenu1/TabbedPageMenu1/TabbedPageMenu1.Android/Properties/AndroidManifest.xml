@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.tabbedpagemenu1">
     <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="28" />
-    <application android:label="TabbedPageMenu1.Android"></application>
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application android:label="TabbedPageMenu1.Android">
+
+      <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyAE_twOohwWmOyuHUw90YPodRu0Cj1hJ24"></meta-data>
+
+      <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+      
+    </application>
+  
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+  <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+  <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  
 </manifest>
