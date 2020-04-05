@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="BDSQLite1.EditStudent">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry Placeholder="Nombres" Text="{Binding stdname}"></Entry>
+            <Entry Placeholder="Curso" Text="{Binding stdcourse}"></Entry>
+            <Entry Placeholder="Nivel" Text="{Binding stdlevel}"></Entry>
+            <Button x:Name="BtnUpdate" Text="Actualizar" Clicked="BtnUpdate_Clicked" ></Button>
+            <Button x:Name="BtnDel" Text="Borrar" BackgroundColor="Red" TextColor="White" Clicked="BtnDel_Clicked" ></Button>
+            <Button x:Name="BtnCancel" Text="Cancel" Clicked="BtnCancel_Clicked" ></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
