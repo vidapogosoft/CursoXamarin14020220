@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="CollectionView.MainPage"
+             BackgroundImage="foto4FrontChopin.jpg">
+
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical">
+            <Label Text="Mi tienda en linea" TextColor="White" FontAttributes="Bold"
+                   FontSize="25" HorizontalOptions="Center"
+                   TranslationY="40"></Label>
+            <StackLayout VerticalOptions="EndAndExpand" Spacing="7" Margin="30,0,30,30">
+
+                <Button BackgroundColor="OrangeRed" TextColor="White" FontAttributes="Bold"
+                        FontSize="17" CornerRadius="20" Text="Bienvenidos"
+                        x:Name="BtnIngreso" Clicked="BtnIngreso_Clicked">
+                </Button>
+                    
+            </StackLayout>
+        </StackLayout>
+        
+    </ContentPage.Content>
+
+</ContentPage>
